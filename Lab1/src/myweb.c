@@ -94,7 +94,7 @@ int main(int argc, char **argv, char **argw, char **argx) {
     
     bzero(&servaddr, sizeof(servaddr));
     servaddr.sin_family = AF_INET;
-    servaddr.sin_port = htons(defaultPort);
+    servaddr.sin_port = htons(defaultPort);;
     if (inet_pton(AF_INET, ipHalf, &servaddr.sin_addr) <= 0) {
         fprintf(stderr, "inet_pton error for %s \n", ipHalf);
         fclose(fp);
