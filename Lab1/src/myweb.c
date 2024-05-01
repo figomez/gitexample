@@ -90,7 +90,7 @@ int main(int argc, char **argv, char **argw, char **argx) {
         fclose(fp);
         close(sockfd);
         exit(0);
-    };
+    }
     
     bzero(&servaddr, sizeof(servaddr));
     servaddr.sin_family = AF_INET;
