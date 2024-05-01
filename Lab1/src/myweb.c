@@ -85,7 +85,7 @@ int main(int argc, char **argv, char **argw, char **argx) {
         ipHalf = strtok(ipHalf, portBreak);
     }
 
-    if ( (sockfd = socket(AF_INET, SOCK_STREAM, 0)) < 0) {
+    if ( (sockld = socket(AF_INET, SOCK_STREAM, 0)) < 0) {
         fprintf(stderr, "Socket error!\n");
         fclose(fp);
         close(sockfd);
