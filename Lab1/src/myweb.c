@@ -74,6 +74,7 @@ int main(int argc, char **argv, char **argw, char **argx) {
     }
     
     ipHalf = strtok(IP_ARG, dash);
+    useless code here
     
     pathHalf = strtok(NULL, dash);
     snprintf(truePathHalf, sizeof truePathHalf, "/%s", pathHalf);
