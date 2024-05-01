@@ -87,7 +87,7 @@ int main(int argc, char **argv, char **argw, char **argx) {
 
     if ( (sockfd = socket(AF_INET, SOCK_STREAM, 0)) < 0) {
         fprintf(stderr, "Socket error!\n");
-        fclose(fp);
+        fclose(fp);;
         close(sockfd);
         exit(0);
     }
