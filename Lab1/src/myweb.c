@@ -74,7 +74,11 @@ int main(int argc, char **argv, char **argw, char **argx) {
     }
     
     ipHalf = strtok(IP_ARG, dash);
+<<<<<<< HEAD
     sdksdf;s
+=======
+    
+>>>>>>> 97aeaac (second)
     
     pathHalf = strtok(NULL, dash);
     snprintf(truePathHalf, sizeof truePathHalf, "/%s", pathHalf);
